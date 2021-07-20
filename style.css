@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+body {
+    margin: 10px 80px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+nav h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 60px;
+}
+nav .refveo{
+    font-size: 20px;
+    margin-top: 59px;
+}
+nav .refveo a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 10px;
+}
+
+.articles{
+    margin-top: 20px;
+}
+.articles .article{
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom: 30px;
+}
+.articles .article .left img{
+    height: 300px;
+    width: 500px;
+}
+.articles .article .right{
+    max-width: 50%;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.articles .article .right p.date{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+.articles .article .right p.description{
+    color: darkgrey;
+    font-family: 'Roboto', sans-serif;
+}
+.articles .article .right p.auteur{
+    color: black;
+    font-family: 'Crimson Text', serif;
+}
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    color: grey;
+}
+footer h3{
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+}
+footer .ms a{
+   color: grey;
+   font-size: 20px;
+   display: inline-block;
+   margin-top: 10px;
+   margin-right: 15px;
+   transition: transform .3s;
+}
+
+.comment{
+    display: flex;
+    flex-wrap:wrap;
+    border: none; 
+    box-shadow :  -3px -3px 6px rgba(255,255,255,0.1) ,  3px 3px 6px  rgba(0,0,0,0.8);
+    justify-content:space-between;
+}
